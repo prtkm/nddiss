@@ -1347,7 +1347,7 @@ FUNCTION {presort}
 
 ITERATE {presort}
 
-SORT
+% SORT
 
 STRINGS { longest.label last.label next.extra }
 
@@ -1402,7 +1402,7 @@ FUNCTION {bib.sort.order}
 
 ITERATE {bib.sort.order}
 
-SORT
+% SORT
 
 FUNCTION {begin.bib}
 {   preamble$ empty$
